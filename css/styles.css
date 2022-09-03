@@ -19,6 +19,7 @@ body {
     --background-grey-color: #2F303A;
     --buttons-section-color: #F5F4FA;
     --border-color: #ECECEC;
+    --portfolio-color: #eeeeee;
 }
 
 
@@ -137,6 +138,13 @@ img {
     color: var(--blue-color);
 }
 
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 94px;
+    margin-bottom: 50px;
+}
 
 .portfolio-button {
     background-color: var(--buttons-section-color);
@@ -148,6 +156,7 @@ img {
     line-height: 1.625;
     color: var(--text-black-color);
     height: 38px;
+    border-radius: 4px;
 }
 
 .portfolio-button:hover,
@@ -281,11 +290,13 @@ img {
     line-height: 2;
     letter-spacing: 0.06;
     color: var(--text-black-color);
+    padding-top: 20px;
 }
 
 .portfolio-image-description {
     font-size: 14px;
     line-height: 1.875;
+    padding-top: 4px;
 }
 
 .address {
@@ -310,6 +321,22 @@ img {
 
 .portfolio-images {
     display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 50px;
+    margin-bottom: 94px;
+}
+
+.portfolio-item {
+    display: flex;
+    width: 370px;
+    height: 404px;
+    flex-basis: calc((100% - 60px) / 3);
+    justify-content: center;
+    border-left: 1px solid var(--portfolio-color);
+    border-right: 1px solid var(--portfolio-color);
+    border-bottom: 1px solid var(--portfolio-color);
+    padding-top: 0;
 }
 
 .adress-list {
