@@ -41,13 +41,19 @@ p {
     display: flex;
 }
 
-img {
+figure {
     display: block;
+    margin: 0;
+    padding: 0;
 }
 
 .container {
     max-width: 1200px;
     margin: 0 auto;
+}
+
+.section {
+    padding: 94px 0 94px 0;
 }
 
 .header-style {
@@ -142,7 +148,6 @@ img {
     display: flex;
     justify-content: center;
     gap: 8px;
-    margin-top: 94px;
     margin-bottom: 50px;
 }
 
@@ -188,20 +193,20 @@ img {
 
 .title {
     color: var(--white-main-color);
-    text-align: center;
     letter-spacing: 0.06;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    padding-top: 200px;
+    display: flex;
     margin-bottom: 30px;
+    text-align: center;
+    justify-content: center;
 }
 
 .description-title {
     font-weight: 700;
     line-height: 1.17;
     color: var(--text-black-color);
-    margin-top: 94px;
 }
 
 .description {
@@ -228,10 +233,9 @@ img {
     line-height: 1.17;
     color: var(--text-black-color);
     text-align: center;
-    padding-top: 94px;
 }
 
-.section {
+.first-section {
     background-color: var(--background-grey-color);
     height: 600px;
 }
@@ -333,8 +337,6 @@ img {
     height: 404px;
     flex-basis: calc((100% - 60px) / 3);
     justify-content: center;
-    border-left: 1px solid var(--portfolio-color);
-    border-right: 1px solid var(--portfolio-color);
     border-bottom: 1px solid var(--portfolio-color);
     padding-top: 0;
 }
