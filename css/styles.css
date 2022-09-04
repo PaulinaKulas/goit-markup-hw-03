@@ -47,6 +47,7 @@ figure {
     padding: 0;
 }
 
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -65,6 +66,7 @@ figure {
     padding: 24px 0 25px 0;
     align-items: center;
     border-bottom: 1px var(--border-color) solid;
+    width: 1600px;
 }
 
 .web-style {
