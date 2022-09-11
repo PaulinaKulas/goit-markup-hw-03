@@ -73,6 +73,7 @@ figure {
     height: 80px;
     display: flex;
     justify-content: center;
+    background-color: var(--white-main-color);
 }
 
 .header__container {
@@ -81,6 +82,7 @@ figure {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: var(--white-main-color);
 }
 
 .header__container--left {
@@ -308,6 +310,7 @@ figure {
 
 .description-section {
     height: 769px;
+    background-color: var(--main-background-color);
 }
 
 .team-section {
