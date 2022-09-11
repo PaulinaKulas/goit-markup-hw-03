@@ -19,38 +19,55 @@
 </head>
 <body>
     <div class="wrapper">
-    <header class="header-style">
-        <div class="container header-wrap">
-        <a class="logo" href="index.html"><span class="web-style">Web</span>Studio</a>
-        <nav>
+        <!-- <header class="header-style">
+            <div class="container header-wrap">
+                <a class="logo" href="index.html"><span class="web-style">Web</span>Studio</a>
+        <nav class="nav">
             <ul class="menu links-nav">
                 <li><a class="link" href="/index.html">Agencja</a></li>
                 <li><a class="link" href="portfolio.html">Portfolio</a></li>
+                <li><a class="link" href="/index.html">Kontakt</a></li>
                 <li><a class="link" href="/index.html">Kontakt</a></li>
             </ul>
         </nav>
         <ul class="menu contacts-header">
             <li>
-                <a class="second-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                <a class="second-link first-contact" href="mailto:info@devstudio.com">info@devstudio.com</a>
             </li>
         
             <li>
-                <a class="second-link" href="tel:+48111111111">+48 111 111 111</a>
+                <a class="second-link second-contact" href="tel:+48111111111">+48 111 111 111</a>
             </li>
         </ul>
     </div>
-    </header>
+        </header> -->
+<header class="header">
+    <div class="header__container">
+	    <div class="header__container--left">
+	        <a class="logo" href="index.html"><span class="web-style">Web</span>Studio</a>
+            <nav class="links-nav">
+                <a class="link" href="./index.html">Agencja </a>
+                <a class="link" href="./portfolio.html">Portfolio</a>
+                <a class="link" href="./index.html">Kontakt</a>
+            </nav>
+	    </div>
+        <div class="contacts-header header__container--right">
+            <a href="mailto:info@devstudio.com" class="second-link">info@devstudio.com</a>
+            <a href="tel:+48111111111" class="second-link">+48 111 111 111</a>
+        </div>
+    </div>
+</header>
 <main>
-        <section class="section first-section">
-            <div class="container">
+    <section class="section first-section">
+        <div class="container first-section-container">
             <h1 class="title">EFEKTYWNE ROZWIĄZANIA </br>
                 DLA WASZEGO BIZNESU</h1>
                 <button type="button "class="main-button">Zamów usługę</button>
-                </div>
-        </section>
-    <section class="section description-section">
-        <div class="container">
-        <ul class="menu lorem-menu">
+        </div>
+    </section>
+        <section class="section description-section">
+            <div class="container">
+                <ul class="menu lorem-menu">
     <li>
         <h3 class="description-title">LOREM IPSUM</h3>
         <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada <p>
@@ -67,7 +84,7 @@
         <h3 class="description-title">LOREM IPSUM</h3> 
         <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</p>
     </li>
-        </ul>
+                </ul>
 
 <h2 class="images-title">Czym się zajmujemy</h2>
     <ul class="menu images-list">
@@ -93,15 +110,15 @@
         </li>
     
     </ul>
-    </div>
+        </div>
 </section>
 
 <section class="team-section section">   
     <div class="container">
-    <h2 class="team-section-title">Nasz zespół</h2>
-        <ul class="menu team-menu">
-            <li class="team-member-area">
-                <figure>
+        <h2 class="team-section-title">Nasz zespół</h2>
+            <ul class="menu team-menu">
+                <li class="team-member-area">
+                 <figure>
                     <img src="./images/person1.jpg"
             alt="Zdjęcie przedstawiające Product Designera Johna Doe"
                 width="270"
@@ -158,7 +175,7 @@
 </main>
     <footer class="footer-style"> 
         <div class="container">
-        <p class="logo-footer"><span class="web-style">Web</span>Studio</p>
+            <p class="logo-footer"><span class="web-style">Web</span>Studio</p>
                 <address class="address">
                     <ul class="adress-list">
                         <li class="address-item">m. Warszawa, Aleje Jerozolimskie 21</li>
