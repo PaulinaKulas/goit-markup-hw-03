@@ -310,7 +310,7 @@ figure {
 
 .description-section {
     height: 769px;
-    background-color: var(--main-background-color);
+    background-color: var(--white-main-color);
 }
 
 .team-section {
